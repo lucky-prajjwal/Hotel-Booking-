@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Prajjwal">
+    <title>Hotel Booking System</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>5 Star Hotel</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="login.php">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>About the Project</h1>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Hotel Reservation System</h1>
+          <p>
+            A MySQL-PHP based hotel reservation system
+
+We have created a Hotel Reservation system, which can be used by the Hotel clients to make reservations. We provide the Hotel clients and administration with a browser based system which can be deployed on a server to make reservations.
+
+The project makes use of a MySQL Database, Apache Server, PHP, HTML and CSS. The system makes use of MySQL to store the user information, Apache server to host the database, PHP to query the database, and HTML/CSS for creating a user friendly interface. Since we have used a MySQL database, the project doesn’t face concurrency problems, and multiple terminals can be used at once to book rooms.
+          </p>
+          <h1 class="page-title">Description of the project</h1>
+          <p class="dark">
+            The MySQL database has been used for the following purposes:-
+            <br>
+            <br>
+            Storing the tariff of the rooms. The tariff and details of the types of rooms available are stored in a table, which is queried when required.
+            <br>
+            Storing the user information of clients. The details of the users, like their email address, contact number and home address are stored in a table which is updated when a new user is created. Moreover, a user can login and not have to re-enter the information he had previously entered while registering.
+            <br/>
+            Storing the user name and passwords for clients.
+            <br>
+            Every client, if already registered, can login to the system using the username and password he had set while registering.
+            <br>
+            Storing the details of the reservations made. The details of each reservation are stored in the Reservation table. The details include the type of room booked, number of rooms booked, the check-in and the check-out date.
+            <br>
+            Checking which rooms are available on which dates Each room is booked for a certain period. And very cleverly this project maintains the entire session data in a single table.
+          </p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Tools used</h3>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>SQL</p>
+            <p>PHP</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
