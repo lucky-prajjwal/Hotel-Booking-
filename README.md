@@ -1,4 +1,4 @@
-# Hotel-Booking-
+# Hotel-Booking-Website
 
 HOW TO RUN IT -
 
@@ -29,5 +29,5 @@ HOW TO RUN IT -
 7) NOW Close the browser and open it again and open localhost/hotel/
 8)It's all done
 
-*****************************************************ENJOY*********************************************************
+**************************************************************************************************************
      
